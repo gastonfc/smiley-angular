@@ -1,12 +1,11 @@
 {
   "name": "smiley",
-  "version": "0.1.0",
-  "main": "build/src/common/smiley/smiley-directive.js",
+  "version": "0.1.2",
+  "main": "src/common/smiley/smiley-directive.js",
   "ignore": [
     "bin",
     "karma",
     "node_modules",
-    "src",
     "vendor",
     "build.config.js",
     "changelog.tpl",
