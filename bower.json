@@ -1,6 +1,19 @@
 {
   "name": "smiley",
-  "version": "0.3.2",
+  "version": "0.1.0",
+  "main": "build/src/common/smiley/smiley-directive.js",
+  "ignore": [
+    "bin",
+    "karma",
+    "node_modules",
+    "src",
+    "vendor",
+    "build.config.js",
+    "changelog.tpl",
+    "Gruntfile.js",
+    "module.*",
+    "npm-debug.log"
+  ],
   "devDependencies": {
     "angular": "~1.2",
     "angular-mocks": "~1.2",
