@@ -11,7 +11,8 @@ angular.module( 'ngBoilerplate', [
   $urlRouterProvider.otherwise( '/home' );
 })
 
-.run( function run () {
+.run( function run ( $rootScope ) {
+  $rootScope.smileyBaseFolder = 'src/common/smiley/templates';
 })
 
 .controller( 'AppCtrl', function AppCtrl ( $scope, $location ) {
