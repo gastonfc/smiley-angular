@@ -1,11 +1,10 @@
-angular.module('smiley', [])
+angular.module('smiley', ['templates-common'])
   .directive('smiley', function ($rootScope) {
-    var templateBaseFolder = $rootScope.smileyBaseFolder || 'bower_components/smiley/src/common/smiley/templates';
 
     return {
       restrict: 'AE',
       replace: false,
-      templateUrl: templateBaseFolder + '/smiley.html',
+      templateUrl: 'smiley/templates/smiley.tpl.html',
       controller: function ($scope, $element, $attrs) {
         $scope.color = $attrs.color || '#f6eb13';
         $scope.size = $attrs.size || '50';

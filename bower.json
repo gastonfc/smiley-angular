@@ -1,6 +1,6 @@
 {
   "name": "smiley",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "main": "src/common/smiley/smiley-directive.js",
   "ignore": [
     "bin",
